@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="convert-top">
+      <p class="text-bigger">Currency converter</p>
+    </div>
+    <div class="container">
+      <p class="text-bigger">Amount to convert :</p>
+      <div class="div-input">
+        <input type="text" name="" id="" class="amount-collect" />
+      </div>
+      <div class="div-input">
+        <p class="text-big">From</p>
+        <p class="text-big">To</p>
+      </div>
+      <div class="div-input">
+        <select name="" id="from" class="convert-select">
+          <option value="dzd">DZD</option>
+          <option value="usd">USD</option>
+          <option value="eur">EUR</option>
+        </select>
+        <select name="" id="to" class="convert-select">
+          <option value="dzd">DZD</option>
+          <option value="usd">USD</option>
+          <option value="eur">EUR</option>
+        </select>
+      </div>
+      <div class="div-input">
+        <input type="button" value="Convert" class="convert" />
+        <input type="button" value="Reset" class="reset" />
+      </div>
+      <p class="converted-price hidden"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
